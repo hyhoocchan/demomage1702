@@ -1,6 +1,6 @@
-.idea
+/.idea
 .htaccess.sample
 .modgit/
 .modman/
-media/*
-var/*
+/media/*
+/var/*
