@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Dev_Test>
+            <version>0.1.0</version>
+        </Dev_Test>
+    </modules>
+    <global>
+        <models>
+            <dev_test>
+                <class>Dev_Test_Model</class>
+            </dev_test>
+        </models>
+        <blocks>
+            <dev_test>
+                <class>Dev_Test_Block</class>
+            </dev_test>
+        </blocks>
+        <helpers>
+            <dev_test>
+                <class>Dev_Test_Helper</class>
+            </dev_test>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <dev_test>
+                <use>standard</use>
+                <args>
+                    <module>Dev_Test</module>
+                    <frontName>test</frontName>
+                </args>
+            </dev_test>
+        </routers>
+    </frontend>
+</config>
